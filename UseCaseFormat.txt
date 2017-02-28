@@ -4,3 +4,6 @@ Brief Description:
 Primary Actor:
 Secondary Actor:
 Precondition(s):
+Main Flow:
+Post Condition(s):
+Alternate Flow(s):
