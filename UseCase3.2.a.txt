@@ -1,0 +1,24 @@
+Use Case: Game force-quit
+ID:3.2.a
+Brief Description: Player leaves in the middle of the game.
+Primary Actor: Player
+Secondary Actor: None
+Precondition(s):
+	-Player was logged in
+	-Player has entered a game session
+	-Entered game session is in progress
+Main Flow:
+1. Process starts when the player leaves in the middle of the game.
+2. When the player leaves the game, a flag is set to where the round began.
+3. When the player logs back in, he or she is given a a pop-up in the application notifying them the outcome.
+	- "You have logged out of your last match in the middle of the game. If this is done after a few times, there will be consquences [link to consequences]."
+3.1. Player presses 'Okay' to remove the pop-up.
+4. Player then receives another pop-up notifying him what the outcome of the match was.
+	- "Your received *Blank* and your opponent received *Blank*."
+5. Player them presses 'Okay' to remove the pop-up.
+Post-Condition(s):
+	-Player is notified he left in the middle of the game.
+	-Player is notfied what the outcome of the game was.
+	-Player can now setup matches or search for them again.
+Alternative Flow(s):
+	-Player has left in the middle of the game 5 times.
