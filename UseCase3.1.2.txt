@@ -1,0 +1,19 @@
+Use Case: Game creator leaves game session
+ID: 3.1.1
+Brief Description: Game creator their own game lobby leaves their session, which ends the whole session.
+Primary Actor: Player (Game creator)
+Secondary Actor: None
+Precondition(s): 
+	-Player is logged in.
+	-Player is in a game lobby (i.e. the game has not started yet).
+	-Player created the game session.
+Main Flow:
+1. The main flow begins when the player hits the "Exit Game Session" button.
+2. The game creator is taken to the "Search for Games" page.
+3. Every player that is not the game creator is sent to an error page which reads, "Game Creator has ended the game session. Sorry about that!"
+3.1 Those players can then hit the "Search for other games" button, which will take them to the "Search for Games" page.
+4. The game session is then terminated.
+Post Condition(s):
+	-Players are no longer in the game lobby.
+	-The game instance no longer exists.
+	-Players are now on the "Search for Games" page.

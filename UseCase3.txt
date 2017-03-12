@@ -13,7 +13,7 @@ Main Flow:
 	-Game title
 	-[Game type?]
 	-[Friends only/Public/Private?]
-	-Number of players (2-7)
+	-Max number of players (2-7)
 	-Starting pot
 	-Pot growth rate
 	-Maximum or required amount of money needed for entry
