@@ -1,0 +1,14 @@
+Use Case: Player leaves game session
+ID: 3.1.1
+Brief Description: Player in lobby of a game that is not their own chooses to leave the session.
+Primary Actor: Player
+Secondary Actor: None
+Precondition(s): 
+	-Player is logged in.
+	-Player is in a game lobby (i.e. the game has not started yet).
+Main Flow:
+1. The main flow begins when the player hits the "Exit Game Session" button.
+2. The player's name is removed from the game lobby.
+3. The player is taken to the "Search for Games" page.
+Post Condition(s):
+	-Player is no longer in any game lobby.

@@ -1,0 +1,25 @@
+Use Case: Game Lobby
+ID: 3.1
+Brief Description: Game creator is waiting in the lobby for players to join. Game starts when requirements are met.
+Primary Actor: Player (Game creator) [See Use Case 3]
+Secondary Actors: Players
+Precondition(s):
+	-All players are logged in.
+	-A game session has been created (but not yet started) by player (Game creator).
+Main Flow:
+1. The main flow begins when the player (Game creator) has entered the lobby for their created game.
+2. Wait for players to join.
+3. When player attempts to join, refuse if:
+	-They have insufficient funds.
+	-The number of players in the lobby exceeds the maximum.
+3.1 If a player (not the game creator) hits the "Exit Game Session" button, see Use Case 3.1.1
+4. When the number of players in the lobby is exceeds 1, the "Start Game" button becomes active.
+4.1 When the number of players in the lobby drops to 1, the "Start Game" button becomes inactive.
+5. The game creator hits the "Start Game" button.
+6. The game session is set up with the game creator's specifications.
+7. All players in the lobby are taken to the game session.
+Post Condition(s):
+	-The game creator's custom game session begins.
+	-All players in the lobby are taken to the newly created game session.
+Alternate Flow(s):
+	-Game creator hits the "Exit Game Session" button (See Use Case 3.1.2)
