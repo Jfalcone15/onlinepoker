@@ -1,0 +1,24 @@
+Use Case: Error Handling Part 2
+ID: 4.1
+Brief Description: Reached a count of 5 times quitting leaving mid game.
+Primary Actor: Player
+Secondary Actor: None
+Precondition(s):
+	-Player has already left the game 4 times
+	-Player is in another game session
+Main Flow:
+1. Process starts when the player leaves the middle of the game.
+2. The player should have now reached a count of 5 for leaving in the middle of the game.
+3. Now when the user tries logging in, the information will be entered but the account will not log in to the home page.
+4. A pop-up appears instead. It will in form the user what will happened and what the consequence is.
+	-"You have decided to leave mid-game 5 times. This may seem not like a lot but it is unfair for the players in the match.
+	So your account will not be locked for 12 hours. An email will be sent claiming your account is locked."
+5. The player presses 'Okay" to remove the pop-up.
+6. Then another pop-up appears.
+	-"We will also send an email when the 12 hours are up. The email will contain a verification code that will be required
+	to login after the 12 hours."
+7. The player presses "Okay' to remove this pop-up.
+Post-Condition(s):
+	-The player is notified that he or she left mid-game 5 times.
+	-Player is notified the account is locked for 12 hours.
+	-Player is informed a verfication code will be sent when the time ends.
