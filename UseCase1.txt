@@ -1,0 +1,20 @@
+Use Case: Login
+ID: 1
+Brief Description: Player wants to log in to their account
+Primary Actor: Player
+Secondary Actor: None
+Precondition(s):
+	-Player has an account
+	-Player is not logged in
+Main Flow:
+1. Main flow begins when the player accesses the login page.
+2. Player enters their username and password.
+3. Player hits "Log in" button.
+4. System communicates with database to confirm information provided matches system records.
+5. Session is created.
+6. Player is taken to their account dashboard.
+Post Condition(s):
+	-Player is logged into their account.
+	-Player is viewing their dashboard.
+Alternate Flow(s):
+	-Incorrect password.
