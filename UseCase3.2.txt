@@ -1,0 +1,19 @@
+Use Case: Search for game
+ID: 3.2
+Brief Description: Player wants to search for games.
+Primary Actor: Player
+Secondary Actor: None
+Precondition(s):
+	-Player is logged in.
+	-Player is on their main dashboard.
+Main Flow:
+1. The main flow begins when the player hits the "Search for Games" button on their dashboard.
+2. The system takes them to the "Search for Games" page.
+3. Results on page only show if the player can possibly join the session.
+3.1 If they check the "Show unavailable games" option, they can see other game sessions (only sessions hosted on servers with ping of 100 or less).
+3.2 The "Join Game" button on any game session entry on the page is inactive if the player does not fit the requirements for joining the game.
+3.3 If the game has already started, the game entry states "Game in progress" and the "Join Game" button is inactive.
+4. Game page refreshes whenever the status of any game changes (where ping to game server is 100 or less).
+Post Condition(s):
+	-Player sees a list of available games that updates whenever there is a change.
+Alternate Flow(s): None

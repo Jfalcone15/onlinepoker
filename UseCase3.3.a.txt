@@ -1,5 +1,5 @@
 Use Case: Game force-quit
-ID:3.2.a
+ID: 3.3.a
 Brief Description: Player leaves in the middle of the game.
 Primary Actor: Player
 Secondary Actor: None
