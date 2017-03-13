@@ -1,0 +1,17 @@
+Use Case: Player joins game session
+ID: 3.1.3
+Brief Description: Player wants to join a registered game session.
+Primary Actor: Player
+Secondary Actor: None
+Precondition(s):
+	-Player is logged in.
+	-Game session the player wants to join exists.
+Main Flow:
+1. The main flow begins when the player hits the "Join Game" button on the "Search for Games" page.
+2. System checks if the player fits the requirements for the game.
+3. System confirms that the game has not started.
+4. Player is taken to the game session's lobby page.
+Post Condition(s):
+	-Player has joined the game.
+	-Player is now viewing the game session's lobby page.
+Alternate Flow(s): None
