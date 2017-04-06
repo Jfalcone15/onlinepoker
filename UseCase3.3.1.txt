@@ -4,7 +4,7 @@ Brief Description: Player leaves in the middle of the game.
 Primary Actor: Player
 Secondary Actor: None
 Precondition(s):
-	-Player was logged in
+	-Player is logged in
 	-Player has entered a game session
 	-Entered game session is in progress
 Main Flow:
