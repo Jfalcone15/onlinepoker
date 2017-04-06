@@ -1,4 +1,4 @@
-Use Case: Game creator leaves game session
+Use Case: Game creator leaves game lobby
 ID: 3.1.1
 Brief Description: Game creator their own game lobby leaves their session, which ends the whole session.
 Primary Actor: Player (Game creator)

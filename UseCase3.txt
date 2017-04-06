@@ -14,9 +14,11 @@ Main Flow:
 	-[Game type?]
 	-[Friends only/Public/Private?]
 	-Max number of players (2-7)
-	-Starting pot
+	-Starting ante
 	-Pot growth rate
-	-Maximum or required amount of money needed for entry
+2.1 As these fields get updated, minimum and maximum entry funds are displayed.
+	-Minimum is three (3) times the starting ante.
+	-Maximum is five (5) times the starting ante.
 3. Player hits the submit button.
 3.1 System confirms that the player has sufficient funds to start the game.
 3.2 System confirms that the pot growth rate field is equal to or less than the starting pot field.
