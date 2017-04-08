@@ -16,6 +16,7 @@ Main Flow:
 	-Max number of players (2-7)
 	-Starting ante
 	-Pot growth rate
+	-Game Money (Amount of money Game Creator brings into the game)
 2.1 As these fields get updated, minimum and maximum entry funds are displayed.
 	-Minimum is three (3) times the starting ante.
 	-Maximum is five (5) times the starting ante.
